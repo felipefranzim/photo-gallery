@@ -5,6 +5,9 @@ import ChevronRightIcon from "./assets/icons/chevron-right.svg?react";
 import Badge from "./components/badge";
 import Alert from "./components/alert";
 import Divider from "./components/divider";
+import InputText from "./components/input-text";
+import SearchIcon from "./assets/icons/search.svg?react";
+import Checkbox from "./components/checkbox";
 
 export default function App() {
 	return (
@@ -47,6 +50,13 @@ export default function App() {
 
 			<div>
 				<Divider />
+			</div>
+
+			<div>
+				<InputText placeholder="Buscar imagem" icon={SearchIcon} />
+			</div>
+			<div>
+				<Checkbox />
 			</div>
 		</div>
 	);
